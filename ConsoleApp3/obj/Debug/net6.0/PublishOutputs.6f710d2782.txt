@@ -1,0 +1,7 @@
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.exe
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.deps.json
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.runtimeconfig.json
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.pdb
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\CliWrap.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\HtmlAgilityPack.dll

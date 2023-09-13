@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XifVhVnzLjzQe0Sn1JG/bebDhjcBG3FZOYqP9u7Cl72Jpa49q6EvW2ma3T0x35QxPHuzXxVAFrYGQjsxL9i9gw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kalyo\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kalyo\\.nuget\\packages\\cliwrap\\3.6.4\\cliwrap.3.6.4.nupkg.sha512",
+    "C:\\Users\\kalyo\\.nuget\\packages\\htmlagilitypack\\1.11.53\\htmlagilitypack.1.11.53.nupkg.sha512"
+  ],
+  "logs": []
+}

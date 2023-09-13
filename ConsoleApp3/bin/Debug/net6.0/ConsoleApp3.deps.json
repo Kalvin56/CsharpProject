@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleApp3/1.0.0": {
+        "dependencies": {
+          "CliWrap": "3.6.4",
+          "HtmlAgilityPack": "1.11.53"
+        },
+        "runtime": {
+          "ConsoleApp3.dll": {}
+        }
+      },
+      "CliWrap/3.6.4": {
+        "runtime": {
+          "lib/netcoreapp3.0/CliWrap.dll": {
+            "assemblyVersion": "3.6.4.0",
+            "fileVersion": "3.6.4.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.53": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.53.0",
+            "fileVersion": "1.11.53.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CliWrap/3.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KVGVZlR0GWgN3Xr88oZMSzYu38TXIogwLz588e6wku3mIfg6lPchxpYWtZSZfurpTY63ANF61xWp8EZF3jkN4g==",
+      "path": "cliwrap/3.6.4",
+      "hashPath": "cliwrap.3.6.4.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FeBqVmrMVoKFcsg6BhMJ5FYSx476AKDic9oHk5DsYSj606agR1XuxaaicxJ28X/LZkPTX51e3NaB8QJ5G+1B/w==",
+      "path": "htmlagilitypack/1.11.53",
+      "hashPath": "htmlagilitypack.1.11.53.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ConsoleApp3</id>
+    <version>1.0.0</version>
+    <authors>ConsoleApp3</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\obj\DotnetToolSettings.xml" target="tools\net6.0\any\DotnetToolSettings.xml" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.dll" target="tools\net6.0\any\ConsoleApp3.dll" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.deps.json" target="tools\net6.0\any\ConsoleApp3.deps.json" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.runtimeconfig.json" target="tools\net6.0\any\ConsoleApp3.runtimeconfig.json" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.pdb" target="tools\net6.0\any\ConsoleApp3.pdb" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\CliWrap.dll" target="tools\net6.0\any\CliWrap.dll" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\HtmlAgilityPack.dll" target="tools\net6.0\any\HtmlAgilityPack.dll" />
+  </files>
+</package>
