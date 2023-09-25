@@ -1,4 +1,13 @@
 ﻿using HtmlAgilityPack;
+using Newtonsoft.Json;
+using System.Text;
+using System;
+using static System.Net.WebRequestMethods;
+using System.Text.Json;
+using System.Net.Http.Json;
+using Microsoft.VisualBasic;
+using System.Text.Json.Serialization;
+using System.Reflection.Metadata;
 
 class FonctionsScrap
 {
@@ -55,7 +64,25 @@ class FonctionsScrap
                     }
                 }
 
-                listeArticles.Add(new Article(urlArticle, articleText));
+                var data = new Dictionary<string, string>
+                {
+                    {"inputs", articleText},
+                };
+
+                var API_KEY_HUGGING_FACE = DotNetEnv.Env.GetString("API_KEY_HUGGING_FACE");
+                var urlHuggingFace = "https://api-inference.huggingface.co/models/csebuetnlp/mT5_multilingual_XLSum";
+                using var client = new HttpClient();
+                client.DefaultRequestHeaders.Add("Authorization", $"Bearer {API_KEY_HUGGING_FACE}");
+                var res = await client.PostAsync(urlHuggingFace, new FormUrlEncodedContent(data));
+                if (res.IsSuccessStatusCode)
+                {
+                    var content = await res.Content.ReadAsStringAsync();
+                    var value = JsonConvert.DeserializeObject<List<HuggingSummary>>(content);
+                    if (value != null){
+                        var summary = value[0].summary_text;
+                        listeArticles.Add(new Article(urlArticle, summary));
+                    }
+                }
             }
 
         }
@@ -115,10 +142,30 @@ class FonctionsScrap
                     }
                 }
 
-                listeArticles.Add(new Article(news, articleText));
+                var data = new Dictionary<string, string>
+                {
+                    {"inputs", articleText},
+                };
+
+                var API_KEY_HUGGING_FACE = DotNetEnv.Env.GetString("API_KEY_HUGGING_FACE");
+                var urlHuggingFace = "https://api-inference.huggingface.co/models/csebuetnlp/mT5_multilingual_XLSum";
+                using var client = new HttpClient();
+                client.DefaultRequestHeaders.Add("Authorization", $"Bearer {API_KEY_HUGGING_FACE}");
+                var res = await client.PostAsync(urlHuggingFace, new FormUrlEncodedContent(data));
+                if (res.IsSuccessStatusCode)
+                {
+                    var content = await res.Content.ReadAsStringAsync();
+                    var value = JsonConvert.DeserializeObject<List<HuggingSummary>>(content);
+                    if (value != null)
+                    {
+                        var summary = value[0].summary_text;
+                        listeArticles.Add(new Article(news, summary));
+                    }
+                }
             }
         }
 
         return listeArticles;
     }
 }
+

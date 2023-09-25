@@ -49,9 +49,17 @@
               "target": "Package",
               "version": "[3.6.4, )"
             },
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
             "HtmlAgilityPack": {
               "target": "Package",
               "version": "[1.11.53, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

@@ -4,4 +4,10 @@ C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Con
 C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.runtimeconfig.json
 C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.pdb
 C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\CliWrap.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\DotNetEnv.dll
 C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\HtmlAgilityPack.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Newtonsoft.Json.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Sprache.dll

@@ -16,3 +16,9 @@ C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net6.0\ConsoleApp3
 C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net6.0\ConsoleApp3.genruntimeconfig.cache
 C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net6.0\ref\ConsoleApp3.dll
 C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\CliWrap.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\DotNetEnv.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\Sprache.dll

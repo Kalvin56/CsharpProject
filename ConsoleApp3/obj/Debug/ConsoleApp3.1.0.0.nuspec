@@ -16,6 +16,12 @@
     <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.runtimeconfig.json" target="tools\net6.0\any\ConsoleApp3.runtimeconfig.json" />
     <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\ConsoleApp3.pdb" target="tools\net6.0\any\ConsoleApp3.pdb" />
     <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\CliWrap.dll" target="tools\net6.0\any\CliWrap.dll" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\DotNetEnv.dll" target="tools\net6.0\any\DotNetEnv.dll" />
     <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\HtmlAgilityPack.dll" target="tools\net6.0\any\HtmlAgilityPack.dll" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.dll" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.Abstractions.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Microsoft.Extensions.Primitives.dll" target="tools\net6.0\any\Microsoft.Extensions.Primitives.dll" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Newtonsoft.Json.dll" target="tools\net6.0\any\Newtonsoft.Json.dll" />
+    <file src="C:\Users\kalyo\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net6.0\publish\Sprache.dll" target="tools\net6.0\any\Sprache.dll" />
   </files>
 </package>
